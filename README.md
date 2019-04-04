@@ -3,10 +3,10 @@ Testing GraphQL subscriptions
 
 Run both the client (`http://localhost:3000`) and the server (`http://localhost:4000`, `ws://localhost:4000`)
 ```
-cd client && npm start
+cd client && npm i && npm start
 ```
 ```
-cd server && node index.js
+cd server && npm i && npm start
 ```
 
 Then you can test with this migration
